@@ -1,0 +1,61 @@
+body,div,p,h1,h2,h3,h4,h5,h6,ul,li,dl,dd,dt,a,input,button,textarea,select{
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+html,body{
+  font-family:Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+  color: #333333;
+  background-color: #ffffff;
+  min-width: 1226px;
+  font-size: 12px;
+}
+a{
+  text-decoration: none;
+  color: #666;
+}
+ul,li{
+  list-style: none;
+}
+input{
+  font: normal;
+}
+input:focus,a:focus{
+  outline: none;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.left {
+    float: left;
+  }
+
+.right {
+  float: right;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.normal {
+  font-weight: normal
+}
+
+.clearfix:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  zoom: 1;
+}
